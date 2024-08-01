@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Roboto;
+    padding: 20px;
+    background-color: transparent;
+    
+}
+.drova{
+ 
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+    background-image: url("draiver.png");
+    background-size: cover;
+}
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+    background-image: url("header_back.jpg");
+    background-size: cover;
+}
+
+.row {
+    display: table;
+}
+
+.leftcolumn {   
+    float: left;
+    width: 249px;
+    height: 100%;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    padding-top: 45px;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.card {
+     background: transparent;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+.card:hover {
+     border: 2px solid black;
+}
+
+.img {
+    background-color: #aaa;
+    padding: 20px;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url("img1.jpg");
+}
+
+i {
+    font-size: 30px !important; 
+    padding-right: 15px;
+}
+
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+/* Основні стилі */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Шапка сайту */
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+/* Герой */
+
+.hero {
+    background-image: url(https://www.pexels.com/ru-ru/search/%D0%BF%D0%BE%D0%BB%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%86%D0%B2%D0%B5%D1%82%D1%8B/);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-text {
+    color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Про нас */
+
+#about {
+    padding: 50px 0;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Програми */
+
+#programs {
+    padding: 50px 0;
+}
+
+.programs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.program {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.program h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.program p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Реєстрація */
+
+#registration {
+    padding: 50px 0;
+}
+
+#registration form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#registration label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#registration input,
+#registration select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+#registration button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#registration button:hover {
+    background-color: #0056b3;
+}
+
+/* Контакти */
+
+#contacts {
+    padding: 50px 0;
+    text
+
+
+
